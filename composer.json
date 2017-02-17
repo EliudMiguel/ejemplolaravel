@@ -6,8 +6,12 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+<<<<<<< HEAD
         "laravel/framework": "5.3.*",
         "intervention/image": "^2.3"
+=======
+        "laravel/framework": "5.3.*"
+>>>>>>> subo new proyecto angeles
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

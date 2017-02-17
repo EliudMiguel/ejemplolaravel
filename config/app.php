@@ -12,7 +12,11 @@ return [
     | any other location as required by the application or its packages.
     */
 
+<<<<<<< HEAD
     'name' => 'Laravel',
+=======
+    'name' => 'My Application',
+>>>>>>> subo new proyecto angeles
 
     /*
     |--------------------------------------------------------------------------
@@ -197,7 +201,10 @@ return [
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
         'Blade' => Illuminate\Support\Facades\Blade::class,
+<<<<<<< HEAD
         'Bus' => Illuminate\Support\Facades\Bus::class,
+=======
+>>>>>>> subo new proyecto angeles
         'Cache' => Illuminate\Support\Facades\Cache::class,
         'Config' => Illuminate\Support\Facades\Config::class,
         'Cookie' => Illuminate\Support\Facades\Cookie::class,

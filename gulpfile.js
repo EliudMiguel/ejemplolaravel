@@ -1,6 +1,10 @@
 const elixir = require('laravel-elixir');
 
+<<<<<<< HEAD
 require('laravel-elixir-vue-2');
+=======
+require('laravel-elixir-vue');
+>>>>>>> subo new proyecto angeles
 
 /*
  |--------------------------------------------------------------------------

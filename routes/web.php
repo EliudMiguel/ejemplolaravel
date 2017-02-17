@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
+=======
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+>>>>>>> subo new proyecto angeles

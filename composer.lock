@@ -4,8 +4,13 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "hash": "c0323f2c3d57b79d07d10c5952434008",
     "content-hash": "86b58b428d13f83a0315a628a609f36c",
+=======
+    "hash": "ed9df8b872992035f068a7fe461a635a",
+    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+>>>>>>> subo new proyecto angeles
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -162,6 +167,7 @@
             "time": "2015-11-06 14:35:42"
         },
         {
+<<<<<<< HEAD
             "name": "guzzlehttp/psr7",
             "version": "1.3.1",
             "source": {
@@ -282,6 +288,8 @@
             "time": "2016-09-01 17:04:03"
         },
         {
+=======
+>>>>>>> subo new proyecto angeles
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -428,6 +436,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v5.3.21",
             "source": {
                 "type": "git",
@@ -438,6 +447,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/140ad823863d5cc6f4580f1cdf9b18b9a6a457f4",
                 "reference": "140ad823863d5cc6f4580f1cdf9b18b9a6a457f4",
+=======
+            "version": "v5.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "c63a7fb7066fea2bce91ace5c830c01d503abe6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c63a7fb7066fea2bce91ace5c830c01d503abe6c",
+                "reference": "c63a7fb7066fea2bce91ace5c830c01d503abe6c",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -485,7 +506,10 @@
                 "illuminate/http": "self.version",
                 "illuminate/log": "self.version",
                 "illuminate/mail": "self.version",
+<<<<<<< HEAD
                 "illuminate/notifications": "self.version",
+=======
+>>>>>>> subo new proyecto angeles
                 "illuminate/pagination": "self.version",
                 "illuminate/pipeline": "self.version",
                 "illuminate/queue": "self.version",
@@ -519,7 +543,11 @@
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
                 "symfony/css-selector": "Required to use some of the crawler integration testing tools (3.1.*).",
                 "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (3.1.*).",
+<<<<<<< HEAD
                 "symfony/psr-http-message-bridge": "Required to use psr7 bridging features (0.2.*)."
+=======
+                "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
+>>>>>>> subo new proyecto angeles
             },
             "type": "library",
             "extra": {
@@ -552,6 +580,7 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2016-10-26 13:27:05"
         },
         {
@@ -570,6 +599,26 @@
             },
             "require": {
                 "php": ">=5.5.9"
+=======
+            "time": "2016-09-01 14:06:47"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "1.0.27",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "50e2045ed70a7e75a5e30bc3662904f3b67af8a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/50e2045ed70a7e75a5e30bc3662904f3b67af8a9",
+                "reference": "50e2045ed70a7e75a5e30bc3662904f3b67af8a9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+>>>>>>> subo new proyecto angeles
             },
             "conflict": {
                 "league/flysystem-sftp": "<1.0.6"
@@ -635,7 +684,11 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "time": "2016-10-19 20:38:46"
+=======
+            "time": "2016-08-10 08:55:11"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "monolog/monolog",
@@ -808,6 +861,7 @@
         },
         {
             "name": "nikic/php-parser",
+<<<<<<< HEAD
             "version": "v2.1.1",
             "source": {
                 "type": "git",
@@ -818,6 +872,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4dd659edadffdc2143e4753df655d866dbfeedf0",
                 "reference": "4dd659edadffdc2143e4753df655d866dbfeedf0",
+=======
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "47b254ea51f1d6d5dc04b9b299e88346bf2369e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/47b254ea51f1d6d5dc04b9b299e88346bf2369e3",
+                "reference": "47b254ea51f1d6d5dc04b9b299e88346bf2369e3",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -855,6 +921,7 @@
                 "parser",
                 "php"
             ],
+<<<<<<< HEAD
             "time": "2016-09-16 12:04:44"
         },
         {
@@ -869,6 +936,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
                 "reference": "c0125896dbb151380ab47e96c621741e79623beb",
+=======
+            "time": "2016-04-19 13:41:41"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -903,6 +986,7 @@
                 "pseudorandom",
                 "random"
             ],
+<<<<<<< HEAD
             "time": "2016-10-17 15:23:22"
         },
         {
@@ -981,6 +1065,28 @@
             "autoload": {
                 "psr-4": {
                     "Psr\\Log\\": "Psr/Log/"
+=======
+            "time": "2016-04-03 06:00:07"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+>>>>>>> subo new proyecto angeles
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -994,13 +1100,20 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+<<<<<<< HEAD
             "homepage": "https://github.com/php-fig/log",
+=======
+>>>>>>> subo new proyecto angeles
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
+<<<<<<< HEAD
             "time": "2016-10-10 12:19:37"
+=======
+            "time": "2012-12-21 11:40:51"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "psy/psysh",
@@ -1076,6 +1189,7 @@
         },
         {
             "name": "ramsey/uuid",
+<<<<<<< HEAD
             "version": "3.5.1",
             "source": {
                 "type": "git",
@@ -1086,6 +1200,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ramsey/uuid/zipball/a07797b986671b0dc823885a81d5e3516b931599",
                 "reference": "a07797b986671b0dc823885a81d5e3516b931599",
+=======
+            "version": "3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/uuid.git",
+                "reference": "a6d15c8618ea3951fd54d34e326b68d3d0bc0786"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a6d15c8618ea3951fd54d34e326b68d3d0bc0786",
+                "reference": "a6d15c8618ea3951fd54d34e326b68d3d0bc0786",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1152,7 +1278,11 @@
                 "identifier",
                 "uuid"
             ],
+<<<<<<< HEAD
             "time": "2016-10-02 15:51:17"
+=======
+            "time": "2016-08-02 18:39:32"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1209,6 +1339,7 @@
         },
         {
             "name": "symfony/console",
+<<<<<<< HEAD
             "version": "v3.1.6",
             "source": {
                 "type": "git",
@@ -1219,11 +1350,26 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/c99da1119ae61e15de0e4829196b9fba6f73d065",
                 "reference": "c99da1119ae61e15de0e4829196b9fba6f73d065",
+=======
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "8ea494c34f0f772c3954b5fbe00bffc5a435e563"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8ea494c34f0f772c3954b5fbe00bffc5a435e563",
+                "reference": "8ea494c34f0f772c3954b5fbe00bffc5a435e563",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9",
+<<<<<<< HEAD
                 "symfony/debug": "~2.8|~3.0",
+=======
+>>>>>>> subo new proyecto angeles
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -1266,6 +1412,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-06 01:44:51"
         },
         {
@@ -1280,6 +1427,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/debug/zipball/e2b3f74a67fc928adc3c1b9027f73e1bc01190a8",
                 "reference": "e2b3f74a67fc928adc3c1b9027f73e1bc01190a8",
+=======
+            "time": "2016-08-19 06:48:39"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "34f6ac18c2974ca5fce68adf419ee7d15def6f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/34f6ac18c2974ca5fce68adf419ee7d15def6f11",
+                "reference": "34f6ac18c2974ca5fce68adf419ee7d15def6f11",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1323,6 +1486,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-09-06 11:02:40"
         },
         {
@@ -1337,6 +1501,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
                 "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+=======
+            "time": "2016-08-23 13:39:15"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "c0c00c80b3a69132c4e55c3e7db32b4a387615e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/c0c00c80b3a69132c4e55c3e7db32b4a387615e5",
+                "reference": "c0c00c80b3a69132c4e55c3e7db32b4a387615e5",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1383,6 +1563,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-13 06:28:43"
         },
         {
@@ -1397,6 +1578,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/205b5ffbb518a98ba2ae60a52656c4a31ab00c6f",
                 "reference": "205b5ffbb518a98ba2ae60a52656c4a31ab00c6f",
+=======
+            "time": "2016-07-19 10:45:57"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "e568ef1784f447a0e54dcb6f6de30b9747b0f577"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/e568ef1784f447a0e54dcb6f6de30b9747b0f577",
+                "reference": "e568ef1784f447a0e54dcb6f6de30b9747b0f577",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1432,6 +1629,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-09-28 00:11:12"
         },
         {
@@ -1446,6 +1644,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f21e5a8b88274b7720779aa88f9c02c6d6ec08d7",
                 "reference": "f21e5a8b88274b7720779aa88f9c02c6d6ec08d7",
+=======
+            "time": "2016-08-26 12:04:02"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "63592e00fd90632b57ee50220a1ddb29b6bf3bb4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/63592e00fd90632b57ee50220a1ddb29b6bf3bb4",
+                "reference": "63592e00fd90632b57ee50220a1ddb29b6bf3bb4",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1485,6 +1699,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-24 15:52:44"
         },
         {
@@ -1499,6 +1714,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/c235f1b13ba67012e283996a5427f22e2e04be14",
                 "reference": "c235f1b13ba67012e283996a5427f22e2e04be14",
+=======
+            "time": "2016-08-22 12:11:19"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-kernel.git",
+                "reference": "aeda215d6b01f119508c090d2a09ebb5b0bc61f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/aeda215d6b01f119508c090d2a09ebb5b0bc61f3",
+                "reference": "aeda215d6b01f119508c090d2a09ebb5b0bc61f3",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1506,7 +1737,11 @@
                 "psr/log": "~1.0",
                 "symfony/debug": "~2.8|~3.0",
                 "symfony/event-dispatcher": "~2.8|~3.0",
+<<<<<<< HEAD
                 "symfony/http-foundation": "~2.8.13|~3.1.6|~3.2"
+=======
+                "symfony/http-foundation": "~2.8.8|~3.0.8|~3.1.2|~3.2"
+>>>>>>> subo new proyecto angeles
             },
             "conflict": {
                 "symfony/config": "<2.8"
@@ -1567,7 +1802,11 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-27 02:38:31"
+=======
+            "time": "2016-09-03 15:28:24"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1738,6 +1977,7 @@
         },
         {
             "name": "symfony/process",
+<<<<<<< HEAD
             "version": "v3.1.6",
             "source": {
                 "type": "git",
@@ -1748,6 +1988,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/66de154ae86b1a07001da9fbffd620206e4faf94",
                 "reference": "66de154ae86b1a07001da9fbffd620206e4faf94",
+=======
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "e64e93041c80e77197ace5ab9385dedb5a143697"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/e64e93041c80e77197ace5ab9385dedb5a143697",
+                "reference": "e64e93041c80e77197ace5ab9385dedb5a143697",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1783,11 +2035,19 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-09-29 14:13:09"
         },
         {
             "name": "symfony/routing",
             "version": "v3.1.6",
+=======
+            "time": "2016-08-16 14:58:24"
+        },
+        {
+            "name": "symfony/routing",
+            "version": "v3.1.4",
+>>>>>>> subo new proyecto angeles
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
@@ -1862,6 +2122,7 @@
         },
         {
             "name": "symfony/translation",
+<<<<<<< HEAD
             "version": "v3.1.6",
             "source": {
                 "type": "git",
@@ -1872,6 +2133,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/ff1285087397d2f64041b35e591f3025881c90cd",
                 "reference": "ff1285087397d2f64041b35e591f3025881c90cd",
+=======
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "a35edc277513c9bc0f063ca174c36b346f974528"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/a35edc277513c9bc0f063ca174c36b346f974528",
+                "reference": "a35edc277513c9bc0f063ca174c36b346f974528",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1922,6 +2195,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-18 04:30:12"
         },
         {
@@ -1936,6 +2210,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
                 "reference": "4dc2f03b480c43f1665d3317d827a04ed6ffd11e",
+=======
+            "time": "2016-08-05 08:37:39"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "62ee73706c421654a4c840028954510277f7dfc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/62ee73706c421654a4c840028954510277f7dfc8",
+                "reference": "62ee73706c421654a4c840028954510277f7dfc8",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -1985,7 +2275,11 @@
                 "debug",
                 "dump"
             ],
+<<<<<<< HEAD
             "time": "2016-10-18 15:46:07"
+=======
+            "time": "2016-08-31 09:05:42"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "vlucas/phpdotenv",
@@ -2253,6 +2547,7 @@
         },
         {
             "name": "myclabs/deep-copy",
+<<<<<<< HEAD
             "version": "1.5.4",
             "source": {
                 "type": "git",
@@ -2263,6 +2558,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
                 "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
+=======
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "da8529775f14f4fdae33f916eb0cf65f6afbddbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/da8529775f14f4fdae33f916eb0cf65f6afbddbc",
+                "reference": "da8529775f14f4fdae33f916eb0cf65f6afbddbc",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -2291,7 +2598,11 @@
                 "object",
                 "object graph"
             ],
+<<<<<<< HEAD
             "time": "2016-09-16 13:37:59"
+=======
+            "time": "2016-09-06 16:07:05"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -2349,6 +2660,7 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
+<<<<<<< HEAD
             "version": "3.1.1",
             "source": {
                 "type": "git",
@@ -2359,6 +2671,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+=======
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
+                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -2390,7 +2714,11 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+<<<<<<< HEAD
             "time": "2016-09-30 07:12:33"
+=======
+            "time": "2016-06-10 09:48:41"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -2747,6 +3075,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "5.6.2",
             "source": {
                 "type": "git",
@@ -2757,14 +3086,32 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
                 "reference": "cd13b23ac5a519a4708e00736c26ee0bb28b2e01",
+=======
+            "version": "5.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "3e6e88e56c912133de6e99b87728cca7ed70c5f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3e6e88e56c912133de6e99b87728cca7ed70c5f5",
+                "reference": "3e6e88e56c912133de6e99b87728cca7ed70c5f5",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-json": "*",
+<<<<<<< HEAD
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
                 "ext-xml": "*",
+=======
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+>>>>>>> subo new proyecto angeles
                 "myclabs/deep-copy": "~1.3",
                 "php": "^5.6 || ^7.0",
                 "phpspec/prophecy": "^1.3.1",
@@ -2786,11 +3133,15 @@
             "conflict": {
                 "phpdocumentor/reflection-docblock": "3.0.2"
             },
+<<<<<<< HEAD
             "require-dev": {
                 "ext-pdo": "*"
             },
             "suggest": {
                 "ext-xdebug": "*",
+=======
+            "suggest": {
+>>>>>>> subo new proyecto angeles
                 "phpunit/php-invoker": "~1.1"
             },
             "bin": [
@@ -2799,7 +3150,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "5.6.x-dev"
+=======
+                    "dev-master": "5.5.x-dev"
+>>>>>>> subo new proyecto angeles
                 }
             },
             "autoload": {
@@ -2825,6 +3180,7 @@
                 "testing",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2016-10-25 07:40:25"
         },
         {
@@ -2839,6 +3195,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
                 "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
+=======
+            "time": "2016-08-26 07:11:44"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "3.2.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "546898a2c0c356ef2891b39dd7d07f5d82c8ed0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/546898a2c0c356ef2891b39dd7d07f5d82c8ed0a",
+                "reference": "546898a2c0c356ef2891b39dd7d07f5d82c8ed0a",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -2884,7 +3256,11 @@
                 "mock",
                 "xunit"
             ],
+<<<<<<< HEAD
             "time": "2016-10-09 07:01:45"
+=======
+            "time": "2016-09-06 16:07:45"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -3401,6 +3777,7 @@
         },
         {
             "name": "symfony/css-selector",
+<<<<<<< HEAD
             "version": "v3.1.6",
             "source": {
                 "type": "git",
@@ -3411,6 +3788,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/css-selector/zipball/ca809c64072e0fe61c1c7fb3c76cdc32265042ac",
                 "reference": "ca809c64072e0fe61c1c7fb3c76cdc32265042ac",
+=======
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "2851e1932d77ce727776154d659b232d061e816a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/2851e1932d77ce727776154d659b232d061e816a",
+                "reference": "2851e1932d77ce727776154d659b232d061e816a",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -3450,6 +3839,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-09-06 11:02:40"
         },
         {
@@ -3464,6 +3854,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/59eee3c76eb89f21857798620ebdad7a05ad14f4",
                 "reference": "59eee3c76eb89f21857798620ebdad7a05ad14f4",
+=======
+            "time": "2016-06-29 05:41:56"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "bb7395e8b1db3654de82b9f35d019958276de4d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/bb7395e8b1db3654de82b9f35d019958276de4d7",
+                "reference": "bb7395e8b1db3654de82b9f35d019958276de4d7",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -3506,6 +3912,7 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-18 15:46:07"
         },
         {
@@ -3520,6 +3927,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
                 "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
+=======
+            "time": "2016-08-05 08:37:39"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "f291ed25eb1435bddbe8a96caaef16469c2a092d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f291ed25eb1435bddbe8a96caaef16469c2a092d",
+                "reference": "f291ed25eb1435bddbe8a96caaef16469c2a092d",
+>>>>>>> subo new proyecto angeles
                 "shasum": ""
             },
             "require": {
@@ -3555,7 +3978,11 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2016-10-24 18:41:13"
+=======
+            "time": "2016-09-02 02:12:52"
+>>>>>>> subo new proyecto angeles
         },
         {
             "name": "webmozart/assert",

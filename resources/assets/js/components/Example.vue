@@ -16,7 +16,11 @@
 
 <script>
     export default {
+<<<<<<< HEAD
         mounted() {
+=======
+        ready() {
+>>>>>>> subo new proyecto angeles
             console.log('Component ready.')
         }
     }

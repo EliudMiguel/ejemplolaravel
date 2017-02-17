@@ -5,7 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
         <title>Laravel</title>
+=======
+        <title>Laravel Angeles 23</title>
+>>>>>>> subo new proyecto angeles
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -75,10 +79,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
+<<<<<<< HEAD
                     Laravel
                 </div>
 
                 <div class="links">
+=======
+                    Xavito Angeles</div><p> nuevo parrafo
+
+ </p>               <div class="links">
+>>>>>>> subo new proyecto angeles
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
